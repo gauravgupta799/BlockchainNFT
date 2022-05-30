@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            
+            @font-face {
+                font-family: "Lato";
+                src: url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900");
+                font-weight:400;
+            }
+            body {
+                font: normal normal normal 20px/28px monospace;
+                letter-spacing: 0px;
+                color: #2F3234;
+            }
+            
+            .bold {
+                font-weight: bold;
+            }
+            .link {
+                color:#FC4448
+            }
+        </style>
+
+<body>
+        
+    <p class="bold">Hi <%= name %>, </b>
+    <p>Thank you for joining us as an Admin! We’re going to make big things happen together</p>
+    <p>
+        <label>Here’s a temporary passcode to verify your account.</label> 
+        <br/>
+        <label>The code is valid for 24 hours.</label> 
+    </p>
+    <br/>
+    <p class="bold"><%= otp %></p>
+    <p ><a href="https://daam-beta.netlify.app/" class="link">Contact DAAM Support</a> if you need help with anything.Please join our Discord group for more discussion: channel_here</p>
+
+    <br/>
+    <p>
+        <label>Thanks and happy minting! </label>
+        <br/>
+        <label>Your Family at DAAM Agency</label>
+    </p>
+</body>
+</head>
+</html>
